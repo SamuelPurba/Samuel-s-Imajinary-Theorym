@@ -6,7 +6,7 @@ endobj
 << /Type /Pages /Kids [3 0 R] /Count 1 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /MediaBox [0 0 612 792] /Contents 6 0 R >>
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R /F2 5 0 R /F3 6 0 R >> >> /MediaBox [0 0 612 792] /Contents 7 0 R >>
 endobj
 4 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
@@ -15,12 +15,15 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 6 0 obj
-<< /Length 3192 >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Symbol >>
+endobj
+7 0 obj
+<< /Length 3155 >>
 stream
 BT
 /F1 14 Tf
 35 750 Td
-(SAMUEL'S IMAGINARY THEOREM APPLICATION: SCOPUS Q1 PUBLICATION) Tj
+(SAMUEL'S IMAGINARY THEOREM APPLICATION: PUBLIKASI IEEE SCOPUS Q1) Tj
 0 -18 Td
 /F2 10 Tf
 (Peneliti Utama & Penulis: Samuel Hasiholan Omega, S. Tr. T.) Tj
@@ -37,9 +40,9 @@ BT
 0 -12 Td
 (karya Samuel Hasiholan Omega, S. Tr. T. Persamaan divergensi kompleks ini didefinisikan sebagai) Tj
 0 -12 Td
-(S_imaginary(x, y, n, t) = (x + i y)^n + Integral (0 ke 1) x^x dx. Riset ini menyatukan) Tj
+(S_imaginary(x, y, n, t) = (x + iy)^n + \362_0^1 x^x dx. Riset ini menyatukan ekspansi binomial) Tj
 0 -12 Td
-(ekspansi binomial kompleks, identitas Euler e^(i pi) + 1 = 0, integrasi deret Sophomore's Dream) Tj
+(kompleks, identitas Euler e^(i\160) + 1 = 0, integrasi deret tak hingga Sophomore's Dream) Tj
 0 -12 Td
 (nilai 0.783430510712134, telemetri Edge IoT, analitik bisnis, serta payment gateway QRIS.) Tj
 0 -22 Td
@@ -47,17 +50,17 @@ BT
 (I. FORMULASI MATEMATIKA ANALITIS & PEMBUKTIAN TEOREMA SAMUEL) Tj
 0 -14 Td
 /F2 9 Tf
-(1. Persamaan Kompleks Utama: S_imaginary(x, y, n, t) = (x + i y)^n + Integral (0 ke 1) x^x dx) Tj
+(1. Persamaan Kompleks Utama: S_imaginary(x, y, n, t) = (x + iy)^n + \362_0^1 x^x dx) Tj
 0 -12 Td
-(2. Teorema Binomial Kompleks: (x + i y)^n = Sum (k = 0 ke n) [ Combinations(n, k) x^(n-k) (i y)^k ]) Tj
+(2. Teorema Binomial Kompleks: (x + iy)^n = \345_{k=0}^n C(n, k) x^{n-k} (iy)^k) Tj
 0 -12 Td
-(3. Identitas Kompleks Euler: e^(i pi) + 1 = 0, dengan unit imajiner i = sqrt(-1) dan i^2 = -1) Tj
+(3. Identitas Kompleks Euler: e^(i\160) + 1 = 0, dengan unit imajiner i = \326(-1) dan i^2 = -1) Tj
 0 -12 Td
-(4. Deret Transendental (Sophomore's Dream): Integral (0 ke 1) x^x dx = 1 - 1/4 + 1/27 - 1/256 + ... = 0.783430510712134) Tj
+(4. Deret Transendental (Sophomore's Dream): \362_0^1 x^x dx = 1 - 1/4 + 1/27 - 1/256 + \277 \273 0.783430510712134) Tj
 0 -12 Td
 (5. Kuadratur Gauss-Legendre 16-Titik: Komputasi Presisi Tinggi Bebas Error Pembagian Nol) Tj
 0 -12 Td
-(6. Rasio Asimptotik Invariansi: Limit (x -> tak hingga) [(x + i y)^n / x^n] = 1 (0% Error Guaranteed)) Tj
+(6. Rasio Asimptotik Invariansi: lim_{x \253 \245} [(x + iy)^n / x^n] = 1 (0% Error Guaranteed)) Tj
 0 -22 Td
 /F1 11 Tf
 (II. SPESIFIKASI RANGKAIAN EMBEDDED & TELEMETRI EDGE IOT) Tj
@@ -99,16 +102,17 @@ ET
 endstream
 endobj
 xref
-0 7
+0 8
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
 0000000115 00000 n 
-0000000251 00000 n 
-0000000326 00000 n 
-0000000396 00000 n 
+0000000261 00000 n 
+0000000336 00000 n 
+0000000406 00000 n 
+0000000473 00000 n 
 trailer
-<< /Size 7 /Root 1 0 R >>
+<< /Size 8 /Root 1 0 R >>
 startxref
-3640
+3680
 %%EOF

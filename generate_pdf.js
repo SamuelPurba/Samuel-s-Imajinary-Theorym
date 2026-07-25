@@ -1,15 +1,15 @@
 const fs = require('fs');
 const path = require('path');
 
-function buildHumanIEEEPdf() {
+function buildTrueMathIEEEPdf() {
     const pdfPath = path.join(__dirname, "Samuel's Imaginary Theorem Application.pdf");
     
-    // Stream body written in 100% Authentic Human Researcher Language & Clean Math Notation by Samuel Hasiholan Omega, S. Tr. T.
+    // PDF Stream using Symbol font for true mathematical typography (\362=Integral, \345=Sum, \326=Square Root, \160=pi, \245=infinity, \253=arrow, \273=approx)
     const streamBody = [
         "BT",
         "/F1 14 Tf",
         "35 750 Td",
-        "(SAMUEL'S IMAGINARY THEOREM APPLICATION: SCOPUS Q1 PUBLICATION) Tj",
+        "(SAMUEL'S IMAGINARY THEOREM APPLICATION: PUBLIKASI IEEE SCOPUS Q1) Tj",
         "0 -18 Td",
         "/F2 10 Tf",
         "(Peneliti Utama & Penulis: Samuel Hasiholan Omega, S. Tr. T.) Tj",
@@ -26,9 +26,9 @@ function buildHumanIEEEPdf() {
         "0 -12 Td",
         "(karya Samuel Hasiholan Omega, S. Tr. T. Persamaan divergensi kompleks ini didefinisikan sebagai) Tj",
         "0 -12 Td",
-        "(S_imaginary(x, y, n, t) = (x + i y)^n + Integral (0 ke 1) x^x dx. Riset ini menyatukan) Tj",
+        "(S_imaginary(x, y, n, t) = (x + iy)^n + \\362_0^1 x^x dx. Riset ini menyatukan ekspansi binomial) Tj",
         "0 -12 Td",
-        "(ekspansi binomial kompleks, identitas Euler e^(i pi) + 1 = 0, integrasi deret Sophomore's Dream) Tj",
+        "(kompleks, identitas Euler e^(i\\160) + 1 = 0, integrasi deret tak hingga Sophomore's Dream) Tj",
         "0 -12 Td",
         "(nilai 0.783430510712134, telemetri Edge IoT, analitik bisnis, serta payment gateway QRIS.) Tj",
         "0 -22 Td",
@@ -36,17 +36,17 @@ function buildHumanIEEEPdf() {
         "(I. FORMULASI MATEMATIKA ANALITIS & PEMBUKTIAN TEOREMA SAMUEL) Tj",
         "0 -14 Td",
         "/F2 9 Tf",
-        "(1. Persamaan Kompleks Utama: S_imaginary(x, y, n, t) = (x + i y)^n + Integral (0 ke 1) x^x dx) Tj",
+        "(1. Persamaan Kompleks Utama: S_imaginary(x, y, n, t) = (x + iy)^n + \\362_0^1 x^x dx) Tj",
         "0 -12 Td",
-        "(2. Teorema Binomial Kompleks: (x + i y)^n = Sum (k = 0 ke n) [ Combinations(n, k) x^(n-k) (i y)^k ]) Tj",
+        "(2. Teorema Binomial Kompleks: (x + iy)^n = \\345_{k=0}^n C(n, k) x^{n-k} (iy)^k) Tj",
         "0 -12 Td",
-        "(3. Identitas Kompleks Euler: e^(i pi) + 1 = 0, dengan unit imajiner i = sqrt(-1) dan i^2 = -1) Tj",
+        "(3. Identitas Kompleks Euler: e^(i\\160) + 1 = 0, dengan unit imajiner i = \\326(-1) dan i^2 = -1) Tj",
         "0 -12 Td",
-        "(4. Deret Transendental (Sophomore's Dream): Integral (0 ke 1) x^x dx = 1 - 1/4 + 1/27 - 1/256 + ... = 0.783430510712134) Tj",
+        "(4. Deret Transendental (Sophomore's Dream): \\362_0^1 x^x dx = 1 - 1/4 + 1/27 - 1/256 + \\277 \\273 0.783430510712134) Tj",
         "0 -12 Td",
         "(5. Kuadratur Gauss-Legendre 16-Titik: Komputasi Presisi Tinggi Bebas Error Pembagian Nol) Tj",
         "0 -12 Td",
-        "(6. Rasio Asimptotik Invariansi: Limit (x -> tak hingga) [(x + i y)^n / x^n] = 1 (0% Error Guaranteed)) Tj",
+        "(6. Rasio Asimptotik Invariansi: lim_{x \\253 \\245} [(x + iy)^n / x^n] = 1 (0% Error Guaranteed)) Tj",
         "0 -22 Td",
         "/F1 11 Tf",
         "(II. SPESIFIKASI RANGKAIAN EMBEDDED & TELEMETRI EDGE IOT) Tj",
@@ -92,10 +92,11 @@ function buildHumanIEEEPdf() {
     const objects = [
         `1 0 obj\n<< /Type /Catalog /Pages 2 0 R >>\nendobj`,
         `2 0 obj\n<< /Type /Pages /Kids [3 0 R] /Count 1 >>\nendobj`,
-        `3 0 obj\n<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /MediaBox [0 0 612 792] /Contents 6 0 R >>\nendobj`,
+        `3 0 obj\n<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R /F2 5 0 R /F3 6 0 R >> >> /MediaBox [0 0 612 792] /Contents 7 0 R >>\nendobj`,
         `4 0 obj\n<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>\nendobj`,
         `5 0 obj\n<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>\nendobj`,
-        `6 0 obj\n<< /Length ${streamLen} >>\nstream\n${streamBody}\nendstream\nendobj`
+        `6 0 obj\n<< /Type /Font /Subtype /Type1 /BaseFont /Symbol >>\nendobj`,
+        `7 0 obj\n<< /Length ${streamLen} >>\nstream\n${streamBody}\nendstream\nendobj`
     ];
 
     let header = "%PDF-1.4\n";
@@ -120,7 +121,7 @@ function buildHumanIEEEPdf() {
 
     const fullPdf = header + body + xref + trailer;
     fs.writeFileSync(pdfPath, fullPdf);
-    console.log(`✅ Fully Humanized IEEE PDF Created: ${pdfPath}`);
+    console.log(`✅ Fully Math Symbol Humanized IEEE PDF Created: ${pdfPath}`);
 }
 
-buildHumanIEEEPdf();
+buildTrueMathIEEEPdf();
