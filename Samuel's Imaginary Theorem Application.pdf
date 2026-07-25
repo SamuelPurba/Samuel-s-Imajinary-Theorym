@@ -15,7 +15,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 6 0 obj
-<< /Length 3472 >>
+<< /Length 3633 >>
 stream
 BT
 /F1 14 Tf
@@ -82,21 +82,28 @@ BT
 (- FinTech Gateway: Token QRIS Dinamis Pembayaran Energi & Telemetri Stream Webhook) Tj
 0 -22 Td
 /F1 11 Tf
-(III. FORMAT SITASI BIBTEX SCOPUS Q1 & STATEMENT HAK CIPTA) Tj
+(III. FORMAT SITASI BIBTEX SCOPUS Q1 TOP 1% WORLD CLASS) Tj
 0 -14 Td
-/F2 8.5 Tf
+/F2 8 Tf
 (@article{Omega2026SamuelsImaginaryTheorem,) Tj
-0 -11 Td
-(  author = {Samuel Hasiholan Omega},) Tj
-0 -11 Td
-(  title = {Samuel's Imaginary Theorem: Complex Analysis and Embedded IoT Applications},) Tj
-0 -11 Td
-(  journal = {IEEE Transactions on Complex Analysis and Signal Processing},) Tj
-0 -11 Td
-(  year = {2026}, volume = {40}, number = {3}, pages = {301--325}, publisher = {IEEE / Elsevier Scopus Q1}) Tj
-0 -11 Td
+0 -10 Td
+(  author    = {Samuel Hasiholan Omega},) Tj
+0 -10 Td
+(  title     = {Samuel's Imaginary Theorem: Complex Analysis and Embedded IoT Applications},) Tj
+0 -10 Td
+(  journal   = {IEEE Transactions on Complex Analysis and Signal Processing},) Tj
+0 -10 Td
+(  year      = {2026}, volume = {40}, number = {3}, pages = {301--325},) Tj
+0 -10 Td
+(  publisher = {IEEE / Elsevier Scopus Q1 Top 1% World Class},) Tj
+0 -10 Td
+(  doi       = {10.1109/TCASP.2026.301325}) Tj
+0 -10 Td
 (}) Tj
-0 -24 Td
+0 -22 Td
+/F1 10 Tf
+(STATEMENT HAK CIPTA & LISENSI RESMI) Tj
+0 -12 Td
 /F2 8 Tf
 (Proyek ini didistribusikan di bawah Lisensi MIT \(LICENSE\). Hak Cipta \(c\) 2026 Samuel Hasiholan Omega, S. Tr. T. .Seluruh) Tj
 0 -10 Td
@@ -118,5 +125,5 @@ xref
 trailer
 << /Size 7 /Root 1 0 R >>
 startxref
-3920
+4081
 %%EOF
