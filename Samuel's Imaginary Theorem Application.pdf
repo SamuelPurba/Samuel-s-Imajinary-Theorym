@@ -15,7 +15,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 6 0 obj
-<< /Length 3461 >>
+<< /Length 3472 >>
 stream
 BT
 /F1 14 Tf
@@ -25,9 +25,9 @@ BT
 /F2 10 Tf
 (Peneliti Utama & Penulis: Samuel Hasiholan Omega, S. Tr. T.) Tj
 0 -14 Td
-(Alumni Teknik Robotika & Kecerdasan Buatan (A . I), Politeknik Negeri Batam) Tj
+(Alumni Teknik Robotika & Kecerdasan Buatan \(A . I\), Politeknik Negeri Batam) Tj
 0 -14 Td
-(Publikasi Ilmiah Internasional IEEE Transactions & Elsevier Scopus Q1, 2026) Tj
+(Jurnal Ilmiah Internasional IEEE Transactions & Elsevier Scopus Q1, 2026) Tj
 0 -22 Td
 /F1 11 Tf
 (ABSTRAK PENELITIAN & MANIFES AKADEMIK) Tj
@@ -49,35 +49,35 @@ BT
 /F2 9 Tf
 (1. Persamaan Kompleks Utama: Fungsi divergensi kompleks Samuel didefinisikan sebagai) Tj
 0 -12 Td
-   penjumlahan bentuk pangkatan binomial kompleks dan integral Sophomore's Dream.) Tj
+(   penjumlahan bentuk pangkatan binomial kompleks dan integral Sophomore's Dream.) Tj
 0 -12 Td
-(2. Teorema Binomial Kompleks: Penjabaran suku berpangkat n dari (x ditambah i kali y)) Tj
+(2. Teorema Binomial Kompleks: Penjabaran suku berpangkat n dari suku x dan i y) Tj
 0 -12 Td
-   mengikuti deret kombinatorika Newton dengan perkalian unit imajiner i kuadrat = -1.) Tj
+(   mengikuti deret kombinatorika Newton dengan perkalian unit imajiner i kuadrat = -1.) Tj
 0 -12 Td
-(3. Identitas Kompleks Euler: Hubungan eksponensial imajiner memenuhi e pangkat (i pi)) Tj
+(3. Identitas Kompleks Euler: Hubungan eksponensial imajiner memenuhi e pangkat i pi) Tj
 0 -12 Td
-   ditambah satu sama dengan nol, di mana unit imajiner i merupakan akar dari minus satu.) Tj
+(   ditambah satu sama dengan nol, di mana unit imajiner i merupakan akar dari minus satu.) Tj
 0 -12 Td
 (4. Deret Transendental: Nilai integral x pangkat x dari nol hingga satu dikalkulasikan secara) Tj
 0 -12 Td
-   eksak sebesar 0,783430510712134 menggunakan 16-titik kuadratur Gauss-Legendre.) Tj
+(   eksak sebesar 0,783430510712134 menggunakan 16-titik kuadratur Gauss-Legendre.) Tj
 0 -12 Td
 (5. Asimptotik Limit Invariansi: Rasio batas limit x mendekati tak hingga bernilai tepat) Tj
 0 -12 Td
-   satu, sehingga terbebas 100% dari risiko pembagian dengan nol (0% Error Guaranteed).) Tj
+(   satu, sehingga terbebas 100% dari risiko pembagian dengan nol \(0% Error Guaranteed\).) Tj
 0 -22 Td
 /F1 11 Tf
 (II. SPESIFIKASI RANGKAIAN EMBEDDED & TELEMETRI EDGE IOT) Tj
 0 -14 Td
 /F2 9 Tf
-(- Mikrokontroler MCU Core: STM32F4 / ESP32-S3 Dual-Core 240MHz (Pin PA0, PA1, PB6, PB7)) Tj
+(- Mikrokontroler MCU Core: STM32F4 / ESP32-S3 Dual-Core 240MHz \(Pin PA0, PA1, PB6, PB7\)) Tj
 0 -12 Td
-(- Transduser Arus: Modul Sensor Arus ACS712-30A Hall Effect (Jangkauan 0 hingga 30A)) Tj
+(- Transduser Arus: Modul Sensor Arus ACS712-30A Hall Effect \(Jangkauan 0 hingga 30A\)) Tj
 0 -12 Td
-(- Transduser Tegangan: Modul Sensor Tegangan B25 Array (Jangkauan Grid 0 hingga 250V AC)) Tj
+(- Transduser Tegangan: Modul Sensor Tegangan B25 Array \(Jangkauan Grid 0 hingga 250V AC\)) Tj
 0 -12 Td
-(- Modul Display: Layar Smart Energy OLED SSD1306 Antarmuka I2C (Resolusi 128 x 64 Piksel)) Tj
+(- Modul Display: Layar Smart Energy OLED SSD1306 Antarmuka I2C \(Resolusi 128 x 64 Piksel\)) Tj
 0 -12 Td
 (- FinTech Gateway: Token QRIS Dinamis Pembayaran Energi & Telemetri Stream Webhook) Tj
 0 -22 Td
@@ -98,11 +98,11 @@ BT
 (}) Tj
 0 -24 Td
 /F2 8 Tf
-(Proyek ini didistribusikan di bawah Lisensi MIT (LICENSE). Hak Cipta (c) 2026 Samuel Hasiholan Omega, S. Tr. T. .Seluruh) Tj
+(Proyek ini didistribusikan di bawah Lisensi MIT \(LICENSE\). Hak Cipta \(c\) 2026 Samuel Hasiholan Omega, S. Tr. T. .Seluruh) Tj
 0 -10 Td
 (riset, formulasi, dan perangkat lunak ini didedikasikan untuk kemajuan keilmuan matematika, robotika,) Tj
 0 -10 Td
-(dan kecerdasan buatan (A . I) Indonesia.) Tj
+(dan kecerdasan buatan \(A . I\) Indonesia.) Tj
 ET
 endstream
 endobj
@@ -118,5 +118,5 @@ xref
 trailer
 << /Size 7 /Root 1 0 R >>
 startxref
-3909
+3920
 %%EOF
