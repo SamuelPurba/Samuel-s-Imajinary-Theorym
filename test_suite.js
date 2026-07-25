@@ -194,6 +194,7 @@ assert(appJsContent.includes('generateQRISPayload'), "Dynamic QRIS Code & Webhoo
 // PILLAR 10: SAMUEL'S IMAGINARY THEOREM ENGINE & EMBEDDED ASSETS INTEGRITY
 console.log("\n--- PILLAR 10: Samuel's Imaginary Theorem Engine & Embedded Assets Integrity ---");
 assert(fs.existsSync("Samuel's Imaginary Theorem Application.pdf"), "File 'Samuel's Imaginary Theorem Application.pdf' exists and is ready for release");
+assert(fs.existsSync("Samuel's Imaginary Theorem Application.docx"), "File 'Samuel's Imaginary Theorem Application.docx' exists and is ready for release");
 assert(fs.existsSync('SamuelImaginaryTheorem.exe'), "Bare-Metal Embedded C# Executable 'SamuelImaginaryTheorem.exe' compiled & verified");
 assert(appJsContent.includes('SamuelExponentialEnergyEngine'), "Samuel.AI Exponential Delta Energy Engine Core exists in app.js");
 assert(appJsContent.includes('calculateDeltaEnergy'), "Sub-ms Energy Divergence Solver calculateDeltaEnergy Verified");
