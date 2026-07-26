@@ -26,9 +26,10 @@
 
 ## 📜 Manifesto & Abstrak Akademis (Scopus Q1 Executive Abstract)
 
+> [!NOTE]
 > **Manifes Riset & Abstrak Scopus Q1** — *“Melawan kemiskinan dengan pendidikan, melawan pemerintah korup penindas rakyat Indonesia dengan pengetahuan.”* 
 > 
-> Makalah publikasi dan repositori ini menyajikan **formalisasi akademis berstandar Scopus Q1**, audit kalkulus kritis bilangan kompleks, serta implementasi *engine* perangkat lunak kecerdasan buatan (A . I) interaktif untuk **Samuel's Imaginary Theorem** karya **Samuel Hasiholan Omega, S. Tr. T.**. Persamaan teorema ini memadukan notasi bilangan kompleks $i = \sqrt{-1}$, identitas Euler $e^{i\pi} + 1 = 0$, ekspansi binomial kompleks $(x + i y)^n = \sum_{k=0}^n \binom{n}{k} x^{n-k} (i y)^k$, integrasi eksak deret tak hingga **Sophomore's Dream** $\int_0^1 x^x \, dx = \sum_{m=1}^{\infty} \frac{(-1)^{m-1}}{m^m} \approx 0.783430510712134$, arsitektur mikrokontroler embedded (STM32/ESP32), sensor arus ACS712 & transduser tegangan B25, telemetri *Smart Grid Edge IoT*, analitik bisnis *OPEX Savings*, serta *FinTech Smart Energy Meter Dynamic QRIS Payment Gateway*.
+> Saya, **Samuel Hasiholan Omega, S. Tr. T.**, mengembangkan **Samuel's Imaginary Theorem** untuk memadukan analisis kalkulus bilangan kompleks $i = \sqrt{-1}$, identitas Euler $e^{i\pi} + 1 = 0$, dan ekspansi binomial kompleks $(x + i y)^n = \sum_{k=0}^n \binom{n}{k} x^{n-k} (i y)^k$ dengan keterhubungan eksak deret tak hingga **Sophomore's Dream** $\int_0^1 x^x \, \mathrm{d}x = \sum_{m=1}^{\infty} \frac{(-1)^{m-1}}{m^m} \approx 0.783430510712134$. Teorema ini saya wujudkan secara nyata ke dalam arsitektur embedded mikrokontroler (STM32/ESP32), sensor arus ACS712, transduser B25, telemetri *Smart Grid Edge IoT*, analitik efisiensi energi (*OPEX Savings*), dan sistem pembayaran *FinTech Smart Energy Meter Dynamic QRIS Payment Gateway*.
 
 **Kata Kunci (Scopus Index Terms)**: *Samuel's Imaginary Theorem, Bilangan Kompleks, Identitas Euler, Audit Kalkulus Analitis, Teorema Binomial Newton, Sophomore's Dream, Edge IoT Telemetry, FinTech QRIS Metering, Circuit Schematic Blueprint, Kecerdasan Buatan (A . I), Politeknik Negeri Batam*.
 
@@ -39,7 +40,7 @@
 Persamaan dasar **Samuel's Imaginary Theorem** didefinisikan sebagai berikut:
 
 $$\begin{aligned}
-\mathcal{S}_{\text{imaginary}}(x, y, n, t) &= (x + i y)^n + \int_{0}^{1} \xi^\xi \, d\xi \\
+\mathcal{S}_{\text{imaginary}}(x, y, n, t) &= (x + i y)^n + \int_{0}^{1} \xi^\xi \, \mathrm{d}\xi \\
 &= \left[ \sum_{k=0}^n \binom{n}{k} x^{n-k} (i y)^k + 0.783430510712134 \right]
 \end{aligned}$$
 
